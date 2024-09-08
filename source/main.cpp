@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
 
 	printf("Hi there ;)\n\nDiscord: 2ipper\nGitHub:  2b-zipper\nBluesky: 2ipper.bsky.social");
 
-	printf("\x1b[31;34HPress Start to exit.");
+	printf("\x1b[31;31HPress Start to exit.");
 
     while(aptMainLoop()) {
         gspWaitForVBlank();
